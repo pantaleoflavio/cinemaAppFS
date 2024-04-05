@@ -117,6 +117,15 @@ header {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+
+        #navbarSecondary {
+
+            margin-top: 0;
+        
+            @media (max-width: 992px) {
+              margin-top: 80px;
+            }
+          }
     }
 
     .secondary-menu .navbar-nav {
@@ -287,4 +296,3 @@ animation-delay: -0.15s;
 .lds-ring.show {
 display: block;
 }
-  
