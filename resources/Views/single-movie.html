@@ -53,22 +53,32 @@
                 </li>
             </ul>
         </nav>
-        <nav class="secondary-menu container navbar navbar-expand-lg">
-            <!-- Toggler -->
-            <ul class="navbar-nav">
-                <!-- Elementi del menu secondario -->
-                <li id="signupButtonNavbar" class="nav-item">
-                    <button class="nav-link signButton" data-bs-toggle="modal" data-bs-target="#signUpModal">SIGN UP</button>
-                </li>
-                <li id="signinButtonNavbar" class="nav-item">
-                    <button class="nav-link signButton" data-bs-toggle="modal" data-bs-target="#signInModal">SIGN IN</button>
-                </li>
+        <nav class="secondary-menu container navbar navbar-expand-lg" style="background-color: #01011b; z-index: 99">
+            <!-- Navbar content for collapse -->
+            <div class="collapse navbar-collapse" id="navbarSecondary" style="margin-top:80px;">
+              <ul class="navbar-nav">
+                <!-- Sign Up Button -->
                 <li class="nav-item">
-                    <a  id="searchIcon" class="nav-link signButton" href="#"><i class="fa fa-search"></i></a> 
-                    <input type="text" id="searchInput"  style="display: none;" class="nav-link search-input" placeholder="Cerca...">
+                  <button class="nav-link signButton" data-bs-toggle="modal" data-bs-target="#signUpModal">SIGN UP</button>
                 </li>
-            </ul>
-                
+                <!-- Sign In Button -->
+                <li class="nav-item">
+                  <button class="nav-link signButton" data-bs-toggle="modal" data-bs-target="#signInModal">SIGN IN</button>
+                </li>
+                <!-- Search Icon and Input -->
+                <li class="nav-item d-flex align-items-center justify-content-center">
+                  <a id="searchIcon" class="nav-link" style="color: white;" href="#">
+                    <i class="fa fa-search"></i>
+                  </a> 
+                  <input type="text" id="searchInput" class="nav-link search-input" style="display: none;" placeholder="Search your Movie...">
+                </li>
+              </ul>
+            </div>  
+
+            <!-- Button toggle for mobile -->
+            <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </nav>
     </header>
 
