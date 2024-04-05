@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             toggleSearchInput();
         } else {
             // Se non sei su index.html, reindirizza l'utente a index.html
-            window.location.href = "/resources/Views/index.html";
+            window.location.href = "C:/xampp/htdocs/cinemaProjectFS/resources/Views/index.html";
         }
     }
 
