@@ -117,6 +117,7 @@ header {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        margin-right: 20px;
 
         #navbarSecondary {
 
@@ -191,7 +192,18 @@ header {
 }
 
 
+/* Body/Main */
+body{
 
+background: rgb(5, 5, 71);
+background: linear-gradient(90deg, mv-dark-blue 0%, mv-blue-70p 39%, mv-light-blue 100%);
+color: $mv-white;
+
+    main{
+        min-height: 80vh;
+    }
+
+}
 /* Footer */
 
 .footer {
