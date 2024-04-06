@@ -217,6 +217,11 @@ body main {
   background-color: #0088bc;
 }
 
+/*Modals */
+.modal {
+  color: black;
+}
+
 /*Loader */
 .lds-ring {
   display: none;
