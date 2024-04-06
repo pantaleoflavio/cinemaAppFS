@@ -166,6 +166,11 @@ header .secondary-menu .search-input.open {
     text-align: center;
   }
 }
+header .avatar-header img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
 
 /* Body/Main */
 body {
